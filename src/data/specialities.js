@@ -91,5 +91,92 @@ export const specialities = [
         ],
       },
     ],
+    
   },
+   {
+    id: "isia",
+    name: "ISIA",
+    ues: [
+      {
+        id: "ue1",
+        name: "UE1",
+        color: { bg: 'from-purple-500/10 to-purple-600/5', border: 'border-purple-500/30', text: 'text-purple-400', badge: 'bg-purple-500/20 text-purple-300' },
+        modules: [
+          {
+            id: "bdd_nosql",
+            name: "BDD NoSQL et Big Data",
+            coef: 2,
+            assessments: ["exam", "tp"],
+          },
+        ],
+      },
+
+      {
+        id: "ue2",
+        name: "UE2",
+        color: { bg: 'from-sky-500/10 to-sky-600/5', border: 'border-sky-500/30', text: 'text-sky-400', badge: 'bg-sky-500/20 text-sky-300' },
+        modules: [
+          {
+            id: "algo",
+            name: "Algorithmique Avancée et Complexité",
+            coef: 3,
+            assessments: ["exam", "td", "tp"],
+          },
+          {
+            id: "arch_sys",
+            name: "Architecture des Systèmes Évolués",
+            coef: 2,
+            assessments: ["exam", "tp"],
+          },
+          {
+            id: "sia",
+            name: "Systèmes d’Information Avancés",
+            coef: 2,
+            assessments: ["exam", "tp"],
+          },
+          {
+            id: "arch_admin_bd",
+            name: "Architecture et Administration des BD",
+            coef: 2,
+            assessments: ["exam", "tp"],
+          },
+        ],
+      },
+
+      {
+        id: "ue3",
+        name: "UE3",
+        color: { bg: 'from-lime-500/10 to-lime-600/5', border: 'border-lime-500/30', text: 'text-lime-400', badge: 'bg-lime-500/20 text-lime-300' },
+        modules: [
+          {
+            id: "gl",
+            name: "Génie Logiciel",
+            coef: 2,
+            assessments: ["exam", "tp"],
+          },
+          {
+            id: "meps",
+            name: "MEPS",
+            coef: 3,
+            assessments: ["exam", "td", "tp"],
+          },
+        ],
+      },
+
+      {
+        id: "ue4",
+        name: "UE4",
+        color: { bg: 'from-rose-500/10 to-rose-600/5', border: 'border-rose-500/30', text: 'text-rose-400', badge: 'bg-rose-500/20 text-rose-300' },
+        modules: [
+          {
+            id: "anglais",
+            name: "Anglais",
+            coef: 1,
+            assessments: ["exam"],
+          },
+        ],
+      },
+    ],
+  },
+
 ];
